@@ -1,0 +1,1103 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* width: 100%; */
+}
+
+body{
+  background-color: black;
+}
+
+nav h1{
+    font-size: 2em;
+    /* margin: 30px; */
+    color: #F5B517;
+    padding-left:25px ;
+    padding-top: 5px;
+    
+    
+}
+
+nav{
+    width: 100%;
+    background-color: #333;
+    position: fixed;
+    opacity: 0.9;
+}
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  ul li {
+    font-size: 20px;
+    list-style: none;
+    padding: 10px 20px;
+  }
+  
+  a {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+    
+  nav ul li a:hover{
+    color: #F5B517;
+    text-decoration: underline;
+  }
+  .sidebar {
+    position: fixed;
+    height: ;
+    top: 0;
+    right: 0;
+    width: 160px;
+    background-color: gray;
+    display: none;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    transition: transform 0.3s ease-in-out;
+    backdrop-filter: blur(10px);
+    z-index: 999;
+  }
+  .menu-btn{
+    display: none;
+  }
+
+.info h1{
+    font-size: 3em;
+    padding-left:3rem ;
+    color: white;
+}
+.info h2{
+    font-size: 2em;
+    padding-left: 8rem;
+    color: #F5B517;
+}
+.info h3{
+  padding: 1.5rem;
+    font-size: 2rem;
+    color: #F5B517;
+}
+
+p{
+    padding-left: 37px;
+    font-size: 26px;
+    padding-top: 16px;
+}
+
+button.wtsapp{
+  margin-left: 126px;
+  margin-top: 36px;
+  background-color: #36B8B4;
+  color: black;
+  width: 150px;
+  border-radius: 8px;
+ }
+ .wtsapp:hover{
+  transform: scale(1.1);
+ }
+
+/* .vibrate{
+  animation: vibrate 1s infinite;
+} */
+
+/* @keyframes vibrate {
+  35%, 65% { transform: scale(1.2) }
+} */
+
+
+
+
+.frombottom{
+  animation: frombottom 2s linear  ;
+}
+@keyframes frombottom {
+  from { transform: translateY(800px) }
+}
+
+.pic{
+    display: flex;
+    justify-content: flex-end;
+}
+.pic img{
+    background: transparent;
+    padding-right: 5rem;
+}
+
+.about-sec h1{
+  text-align: center;
+  font-size: 2.7rem;
+  padding-top: 64px;
+  color: #F5B517;
+}
+
+.about{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about img{
+  padding-left: 100px;
+}
+.about p{
+  overflow: hidden;
+}
+.about-person{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #ffd54f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  margin-left: 70%;
+
+}
+.about-person img{
+  width: 100%;
+  height: auto;
+}
+
+
+
+
+
+
+
+
+.education h1{
+  font-size: 2.5em;
+  text-align: center;
+  padding-top: 15px;
+  color: #F5B517;
+}
+
+
+
+.matric{
+  width: 500px;
+  height: 120px ;
+  background-color: transparent;
+  margin-left: 54px ;
+  margin-top: 40px;
+  border:1px solid blue;
+  border-radius:15px ;
+
+}
+ 
+.matric h2{
+  font-size: 28px;
+  font-weight: bold;
+  padding-left: 25px;
+  color: #F5B517;
+}
+.matric p{
+  font-size: 30px;
+  color: white;
+}
+
+
+
+.fsc{
+  width: 500px;
+  height: 120px ;
+  background-color: transparent;
+  margin-left: 54px ;
+  margin-top: 40px; 
+  border: 1px solid blue;
+  border-radius:15px ;
+
+}
+
+.fsc h2{
+  font-size: 28px;
+  font-weight: bold;
+  padding-left: 25px;
+  color: #F5B517;
+}
+.fsc p{
+  font-size: 30px;
+}
+
+
+.univer{
+  width: 816px;
+  height: 120px ;
+  background-color: transparent;
+  margin-left: 54px ;
+  margin-top: 40px;
+  border:1px solid blue;
+  border-radius:15px ;
+}
+.univer h2{
+  font-size: 28px;
+  font-weight: bold;
+  padding-left: 25px;
+  color: #F5B517;
+}
+.univer p{
+  font-size: 30px;
+}
+
+.services{
+  width: 100%;
+  /* display: flex; */
+}
+
+.services h1{
+  text-align: center;
+  font-size: 2rem;
+  padding-top: 40px;
+  color: #F5B517;
+
+}
+
+.ser{
+  display: flex;
+}
+
+.web{
+  width: 35%;
+  height: 320px ;
+  background-color: gray;
+  margin: 5%;
+  border-radius: 10px;
+  transition: 0.8s;
+  box-shadow: 0px 0px 2px 5px #062A2E;
+}
+.web i{
+  font-size: 30px ;
+  margin-left: 26px;
+  padding-top: 25px;
+}
+.web h2{
+  font-size: 35px;
+  margin-left: 30px;
+  padding-top: 11px;
+}
+
+.web:hover{
+  transform: scale(1.05);
+  background-color: #192C27;
+  color: white;
+}
+
+.ui{
+  width: 37%;
+  height: 320px ;
+  background-color: gray;
+  margin: 5%;
+  border-radius: 10px;
+  transition: 0.8s;
+  box-shadow: 0px 0px 2px 5px #062A2E;
+
+}
+
+.ui h2{
+  font-size: 35px;
+  margin-left: 18px;
+  padding-top: 27px;
+}
+
+.ui:hover{
+  transform: scale(1.05);
+  background-color: #192C27;
+  color: white;
+}
+.webdev{
+  width: 37%;
+  height: 320px ;
+  background-color: gray;
+  margin: 5%;
+  border-radius: 10px;
+  transition: 0.8s;
+  box-shadow: 0px 0px 2px 5px #062A2E;
+}
+
+.webdev h2{
+  font-size: 35px;
+  margin-left: 18px;
+  padding-top: 27px;
+}
+
+.webdev i{
+  font-size: 30px ;
+  margin-left: 26px;
+  padding-top: 25px;
+}
+
+.webdev:hover{
+  transform: scale(1.05);
+  background-color: #192C27;
+  color: white;
+}
+.skills h1{
+     text-align: center;
+     font-size: 2rem;
+     color: #F5B517;
+
+}
+
+.skill{
+  display: flex;
+  margin-left: 25%;
+}
+
+.html{
+  width: 120px;
+  height: 184px;
+  background-color: #333;
+  margin: 5%;
+  border-radius: 15px;
+  transition: 1s;
+  box-shadow: 0px 0px 2px 3px #096A61;
+}
+.html i{
+  font-size: 40px;
+  margin: 34%;
+  color: #E84E23;
+
+}
+.html p {
+  font-size: 34px;
+  padding-left: 26px;
+  /* padding-top: 0px; */
+  margin-top: -39px
+}
+
+.html:hover{
+  transform: scale(1.05);
+  background-color: #096A61;
+  cursor: pointer;
+  
+}
+.css{
+  width: 120px;
+  height: 184px;
+  background-color: #333;
+  margin: 5%;
+  box-shadow: 0px 0px 2px 3px #096A61;
+  border-radius: 15px;
+  transition: 1s;
+}
+
+
+.css i{
+  font-size: 34px;
+  padding-left: 44px;
+  padding-top: 42px;
+  color: #2862E9;
+}
+.css p{
+  font-size: 34px;
+  padding-left: 34px;
+  padding-top: 23px;
+}
+.css:hover{
+  transform: scale(1.05);
+  background-color: #096A61;
+  cursor: pointer;
+}
+
+.js{
+  width: 120px;
+  height: 184px;
+  background-color: #333;
+  margin: 5%;
+  box-shadow: 0px 0px 2px 3px #096A61;
+  border-radius: 15px;
+  transition: 1s;
+}
+.js i{
+  
+  font-size: 40px;
+  margin: 34%;
+  color:#F7D723 ;
+  
+
+}
+.js p{
+  font-size: 41px;
+  padding-left: 44px;
+  /* padding-top: 0px; */
+  margin-top: -39px
+}
+
+.js:hover{
+  transform: scale(1.05);
+  background-color: #096A61;
+  cursor: pointer;
+}
+.react{
+    width: 120px;
+    height: 184px;
+    background-color: #333;
+    margin: 5%;
+    box-shadow: 0px 0px 2px 3px #096A61;
+    border-radius: 15px;
+    transition: 1s;
+}
+.react i{
+    font-size: 40px;
+  margin: 34%;
+  color:#5ED3F3 ;
+}
+.react p{
+    font-size: 40px;
+  padding-left: 15px;
+  /* padding-top: 0px; */
+  margin-top: -39px
+}
+.react:hover{
+    transform: scale(1.05);
+  background-color: #096A61;
+  cursor: pointer;
+}
+
+.progress-bar {
+  width: 100%;
+  height: 10px;
+  background-color:#ffe8e8;
+  border-radius: 5px;
+  margin-top: 10px;
+  overflow: hidden;
+  position: relative;
+}
+
+.progress {
+  height: 100%;
+  background-color: #F5B517;
+  width: 0;
+  transition: width 2s ease-in-out;
+}
+
+.percent {
+  display: block;
+  text-align: center;
+  margin-top: 5px;
+  font-size: 14px;
+  color: #F5B517;
+}
+
+
+
+
+
+
+
+
+
+/* .projects{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 3rem;
+  box-sizing: border-box;
+  object-fit: cover;
+  
+} */
+
+.pro{
+  display: flex;
+  /* display: flex; */
+  justify-content: center;
+  width: 100%;
+  flex-wrap: wrap;
+  gap: 3rem;
+  box-sizing: border-box;
+  object-fit: cover;
+  margin-top: 30px;
+}
+
+.projects h1{
+  text-align: center;
+  color: #F5B517;
+  font-size: 2.5rem;
+
+}
+
+.calculator{
+  background-color: red;
+  width: 28%;
+  height: 445px;
+    background-image: url(./cal.jpg);
+  background-repeat: no-repeat;
+  border-radius: 10px;
+  opacity: 0.6;
+position: relative;
+ transition: 0.8s;
+ 
+}
+
+.cal-btn{
+  position: absolute;
+  top: 90%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  width: 80px;
+  background-color:#192C27;
+  /* background-color: transparent; */
+  border-radius: 8px;
+  
+}
+
+.shopping{
+  background-color: blue;
+  width: 50%;
+  height: 445px;
+background-image: url(./myntra.jpg);
+opacity: 0.6;
+border-radius: 10px;
+ transition: 0.8s;
+}
+
+
+.image{
+  display: flex;
+   height: 445px;
+    width: 50%; 
+    background-color: #007bff;
+    background-image: url(./imagegallry.jpg);
+    border-radius: 10px;
+    opacity: 0.6;
+   transition: 0.8s;
+}
+
+.calculator:hover{
+  transform: scale(1.05);
+ opacity: 1;
+ background-color: #007bff;
+ 
+}
+.cal-btn:hover{
+  transform: scale(1.05);
+  /* opacity: 1; */
+}
+
+.image:hover{
+  transform: scale(1.05);
+  opacity: 1;
+}
+.shopping:hover{
+  transform: scale(1.05);
+  opacity: 1;
+}
+
+.footer{
+  width: 100%;
+  background-color: #BFC0C0;
+  border-radius:10px ;
+  margin-top: 30px;
+}
+
+.contactform{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+form{
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-top: 25px;
+}
+
+.icons{
+  display: flex;
+  gap: 15px;
+  
+}
+.icons i{
+  font-size: 3rem;
+  
+ 
+}
+input[type="text"]{
+  width: 170px;
+  height: 25px;
+  margin-top: 5px;
+  margin-left: 8px;
+}
+input[type="email"]{
+  height: 25px;
+  
+  margin-top: 5px;
+  margin-left: 8px;
+}
+button{
+  margin-left: 64px;
+  font-size: 22px;
+  border-radius: 5px;
+  border: none;
+  transition: 0.8s;
+}
+button:hover{
+  transform: scale(0.8);
+  background-color: #062A2E;
+}
+
+label{
+  margin-left: 12px;
+  font-size: 20px;
+}
+p{
+  color: white;
+}
+
+
+.connect{
+  display: flex;
+  margin-left: 112px;
+  gap: 30px;
+  
+  
+}
+.connect i{
+  font-size: 2rem;
+  opacity: 0.8;
+}
+
+.person{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #ffd54f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+  }
+  .person img{
+    width: 100%;
+    height: auto;
+  }
+  .text-box {
+    background-color: white;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  .text-box h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+    color: #004d40;
+  }
+  .text-box p {
+    font-size: 22px;
+    color: #004d40;
+    margin-bottom: 20px;
+  }
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 800px) {
+    .hide {
+      display: none;
+    }
+    .menu-btn {
+      display: block;
+    }
+}
+  
+
+
+/* Media Query for 640px */
+@media (max-width: 640px) {
+  .info h1 {
+    font-size: 2em;
+  }
+
+  .info h2 {
+    font-size: 1.5em;
+  }
+
+  .about img {
+    padding-left: 50px;
+  }
+
+  .about p {
+    font-size: 18px;
+  }
+
+  .education h1 {
+    font-size: 2em;
+  }
+
+  .matric {
+    width: 400px;
+    height: 100px;
+  }
+
+  .matric h2 {
+    font-size: 22px;
+  }
+
+  .matric p {
+    font-size: 24px;
+  }
+
+  .fsc {
+    width: 400px;
+    height: 100px;
+  }
+
+  .fsc h2 {
+    font-size: 22px;
+  }
+
+  .fsc p {
+    font-size: 24px;
+  }
+
+  .univer {
+    width: 600px;
+    height: 100px;
+  }
+
+  .univer h2 {
+    font-size: 22px;
+  }
+
+  .univer p {
+    font-size: 24px;
+  }
+
+  .services h1 {
+    font-size: 1.5rem;
+  }
+
+  .ser {
+    flex-direction: column;
+  }
+
+  .web {
+    width: 80%;
+    height: 250px;
+  }
+
+  .ui {
+    width: 47%;
+    height: 250px;
+  }
+
+  .webdev {
+    width: 80%;
+    height: 250px;
+  }
+
+  .projects h1 {
+    font-size: 1.5rem;
+  }
+
+  .pro {
+    flex-direction: column;
+  }
+
+  .calculator {
+    width: 80%;
+    height: 300px;
+  }
+
+  .shopping {
+    width: 80%;
+    height: 300px;
+  }
+
+  .image {
+    width: 80%;
+    height: 300px;
+  }
+
+  .contactform {
+    flex-direction: column;
+  }
+
+  form {
+    width: 80%;
+  }
+
+  .icons {
+    justify-content: center;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .info h1 {
+    font-size: 2.5em;
+  }
+
+  .info h2 {
+    font-size: 2em;
+  }
+
+  .about img {
+    padding-left: 75px;
+  }
+
+  .about p {
+    font-size: 20px;
+  }
+  .about{
+    flex-direction: column;
+  }
+
+  .education h1 {
+    font-size: 2.5em;
+  }
+
+  .matric {
+    width: 500px;
+    height: 120px;
+  }
+
+  .matric h2 {
+    font-size: 25px;
+  }
+
+  .matric p {
+    font-size: 28px;
+  }
+
+  .fsc {
+    width: 500px;
+    height: 120px;
+  }
+
+  .fsc h2 {
+    font-size: 25px;
+  }
+
+  .fsc p {
+    font-size: 28px;
+  }
+
+  .univer {
+    width: 700px;
+    height: 120px;
+  }
+
+  .univer h2 {
+    font-size: 25px;
+  }
+
+  .univer p {
+    font-size: 28px;
+  }
+
+  .services h1 {
+    font-size: 2rem;
+  }
+
+  .ser {
+    flex-direction: column;
+  }
+
+  .web {
+    width: 70%;
+    height: 280px;
+    overflow: scroll;
+  }
+
+  .ui {
+    width: 70%;
+    height: 280px;
+    overflow:scroll;
+  }
+
+  .webdev {
+    width: 265px;
+    height: 280px;
+    overflow: scroll;
+  }
+
+  .projects h1 {
+    font-size: 2rem;
+  }
+
+  .pro {
+    flex-direction: column;
+  }
+
+  .calculator {
+    width: 100%;
+    height: 320px;
+  }
+
+  .shopping {
+    width: 100%;
+    height: 320px;
+  }
+
+  .image {
+    width: 100%;
+    height: 320px;
+  }
+
+  .contactform {
+    flex-direction: column;
+  }
+
+  form {
+    width: 60%;
+  }
+
+  .icons {
+    justify-content: space-around;
+  }
+}
+
+
+@media (max-width: 1024px) {
+  .info h1 {
+    font-size: 3em;
+  }
+
+  .info h2 {
+    font-size: 2.5em;
+  }
+
+  .about
+}
+
+
+
+@media (max-width: 412px) {
+  
+  .info h1 {
+    font-size: 2em;
+  }
+
+  .info h2 {
+    font-size: 1.5em;
+  }
+
+  .about img {
+    padding-left: 20px;
+  }
+
+  .about p {
+    font-size: 16px;
+  }
+
+  .education h1 {
+    font-size: 2em;
+  }
+
+  .matric {
+    width: 300px;
+    height: 100px;
+  }
+
+  .matric h2 {
+    font-size: 20px;
+  }
+
+  .matric p {
+    font-size: 22px;
+  }
+
+  .fsc {
+    width: 300px;
+    height: 100px;
+  }
+
+  .fsc h2 {
+    font-size: 20px;
+  }
+
+  .fsc p {
+    font-size: 22px;
+  }
+
+  .univer {
+    width: 500px;
+    height: 100px;
+  }
+
+  .univer h2 {
+    font-size: 20px;
+  }
+
+  .univer p {
+    font-size: 22px;
+  }
+
+  .services h1 {
+    font-size: 1.5rem;
+  }
+
+  .ser {
+    flex-direction: column;
+  }
+
+  .web {
+    width: 80%;
+    height: 250px;
+  }
+
+  .ui {
+    width: 80%;
+    height: 250px;
+  }
+
+  .webdev {
+    width: 80%;
+    height: 250px;
+  }
+
+  .projects h1 {
+    font-size: 1.5rem;
+  }
+
+  .pro {
+    flex-direction: column;
+  }
+
+  .calculator {
+    width: 80%;
+    height: 300px;
+  }
+
+  .shopping {
+    width: 80%;
+    height: 300px;
+  }
+
+  .image {
+    width: 80%;
+    height: 300px;
+  }
+
+  .contactform {
+    flex-direction: column;
+  }
+
+  form {
+    width: 80%;
+  }
+
+  .icons {
+    justify-content: center;
+  }
+}
